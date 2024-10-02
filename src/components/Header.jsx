@@ -6,7 +6,7 @@ import logo from "../assets/images/logo-dark.svg";
 const Header = () => {
   const Links = [
     { name: "Home", link: "/" },
-    { name: "About", link: "/" },
+    { name: "About", link: "/about" },
     { name: "Rooms", link: "/" },
     { name: "Contact us", link: "/" },
   ];
@@ -65,7 +65,7 @@ const Header = () => {
               >
                 <Link
                   to={link.link}
-                  className="text-black text-lg hover:text-yellow-500 duration-500"
+                  className="text-black text-lg hover:text-purple-500 duration-500"
                 >
                   {link.name}
                 </Link>
